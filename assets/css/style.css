@@ -220,9 +220,7 @@ input[type=submit] {
   display: none;
 } 
 
-menu a {
-  
-}
+
 
 
 @media only screen and (max-width: 980px) {
@@ -245,6 +243,10 @@ menu a {
 
 .container{
   width: 90%;
+}
+
+.work{
+  width: 46%;
 }
 
 }  
@@ -270,12 +272,13 @@ menu a {
   .menu {
     text-align:center;
     width: 100%;
+    margin-bottom: 20px;
+    
     
   }
   .menu a{
-    display: block;
-    border-bottom: 1px solid black;
-    margin: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
   }
   #toggle:checked + .menu {
     display: block:
@@ -283,6 +286,9 @@ menu a {
   #logo{
     width: 100%;
     text-align: center;
+  }
+  .work{
+    width: 100%;
   }
 
 }
