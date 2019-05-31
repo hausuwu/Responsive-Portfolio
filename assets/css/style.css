@@ -241,10 +241,12 @@ input[type=submit] {
   width: 50%;
 }
 
+/* this scales the main content container, i'm not sure if this was the best way to do this but it was the only way i could get it to scale correctly */
 .container{
   width: 90%;
 }
 
+/* 50% was too large to fit 2 boxes for some reason? */
 .work{
   width: 46%;
 }
@@ -272,13 +274,15 @@ input[type=submit] {
   .menu {
     text-align:center;
     width: 100%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     
-    
+    /* tried to fix drop menu covering page content */
   }
+
+  /* used code from office hours and then tried to work backwords to match the assignment but had a ton of difficulty */
   .menu a{
     text-decoration: none;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   #toggle:checked + .menu {
     display: block:
